@@ -7,7 +7,7 @@
 <body><header><h2>실습을 환영합니다</h2> </header>
 <nav><ul class="ulClass">
 <li id="kdhong"><a href="#kd">홍길동</a></li><li id="mrlee"><a href="#mr">이몽룡</a></li>
-<li id="hdhong"><a href="#kd">변학도</a></li></ul></nav>
+<li id="hdhong"><a href="#hd">변학도</a></li></ul></nav>
 <section id="Area"><form id="formId">
 <div id="div1" class="class1">
 <label id="id11" class="class2" for="id12">이름</label>
