@@ -1,28 +1,22 @@
-<!doctype html> <!-- member1.html -->
-<html><head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<link rel="stylesheet" href="./sample.css"/>
-<title>CSS 객체 선택 실습</title>
-</head>
-<body>
-<header>
-<h2>실습을 환영합니다</h2> </header>
-<nav><ul class="ulClass">
-<li id="kdhong"><a href="#kd">홍길동</a></li><li id="mrlee"><a href="#mr">이몽룡</a></li>
-<li id="hdhong"><a href="#hd">변학도</a></li></ul></nav>
-<section id="Area"><form id="formId" action="http://www.localhost:8080/member1.jsp">
- <div id="div1" class="class1">
-  <label id="id11" class="class2" for="id12">이름</label>
-  <input id="id12" class="class3" type="text" name="sName" size="20" maxlength="50" required/></div>
- <div id="div2" class="class1" >
-  <label id="id21" class="class2" for="id22">학번</label>
-  <input id="id22" class="class3" type="password" name="sNumber" size="20" maxlength="50"/></div>
- <div id="div3">
-  <label id="id31" for="id32">전화</label>
-  <input id="id32" class="class1 class2" type="text" name="sPhone" size="20" maxlength="50"/></div>
- <div id="div4">
-  <p>테스트 버튼을 누르세요</p>
-  <input id="idSubmit" class="cSubmit" type="submit" value="테스트">
-  <input id="idCancel" type="reset" value="취소"></div></form></section>
-<footer><p>&copy; 20XX Made by Korea. All right reserved.</p></footer></body></html>
+<!doctype  html>  <!--  20230503member1.html -->             
+<html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <style>   [class*="col-"] { float:left; padding:10px;} /* for mobile */
+  [class*="col-"] {  width: 100%; }
+  @media only screen and (min-width: 768px) {        /* For desktop: */
+    .col-1{ width:8.33%;} .col-2{width:16.66%;} .col-3{width:25%;} .col-4{ width:33.33%;} 
+    .col-5{width:41.66%;} .col-6{width:50%;} .col-7{ width:58.33%;} .col-8{width:66.66%;} 
+    .col-9{width:75%;} .col-10{ width:83.33%;} .col-11{width:91.66%;} .col-12{width:100%;}}  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <title>홍길동 자바 홈페이지</title></head>
+<body><header></header><section>
+  <h4>이름 주원영</h4><p>소스코드</p>
+  <picture>
+    <source media="(min-width: 768px)" srcset="./20230503member01.png"/>
+    <img src="./20230503member01.png" alt="소스코드" style="width:auto;"/>
+  </picture>
+  <p>결과화면</p>
+  <picture>
+    <source media="(min-width: 768px)" srcset="./20230503member02.png"/>
+    <img src="./20230503member02.png" alt="결과화면" style="width:auto;"/>
+  </picture>
+</section></body></html>
