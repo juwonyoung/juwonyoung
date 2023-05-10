@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <% request.setCharacterEncoding("utf-8"); %>
-<!doctype html> <!-- member1.jsp -->
+<!doctype  html> <!-- member1.jsp -->
 <html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
 <link rel="stylesheet" href="./sample.css"/>
 <title>CSS 객체 선택 실습</title></head>
