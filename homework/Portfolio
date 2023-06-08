@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>컴퓨터공학 포트폴리오</title>
+    <style>
+        /* 스타일을 추가하세요 */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>컴퓨터공학 포트폴리오</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#courses">수강 예정 과목</a></li>
+            <li><a href="#certifications">자격증</a></li>
+            <li><a href="#resume">기술 이력서</a></li>
+        </ul>
+    </nav>
+    
+    <section id="courses">
+        <h2>수강 예정 과목</h2>
+        <!-- 여기에 수강 예정 과목 목록을 작성하세요 -->
+    </section>
+    
+    <section id="certifications">
+        <h2>자격증</h2>
+        <!-- 여기에 자격증 취득 내역을 작성하세요 -->
+    </section>
+    
+    <section id="resume">
+        <h2>기술 이력서</h2>
+        <!-- 여기에 향후 취업을 위한 기술 이력서를 작성하세요 -->
+    </section>
+    
+    <footer>
+        <p>© 2023 컴퓨터공학 포트폴리오</p>
+    </footer>
+</body>
+</html>
