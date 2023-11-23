@@ -1,0 +1,9 @@
+package org.javaro.lecture2;
+import org.javaro.lecture2.Book; import org.javaro.lecture2.BookStore; import org.javaro.lecture2.Student;
+class MyStore {
+	public static void main(String[] args) {
+		BookStore myStore = new BookStore("도서관");
+		Book book1 = new Book("");
+	}
+
+}
